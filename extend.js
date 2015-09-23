@@ -31,7 +31,7 @@ this.Ninja.module('$extend', ['$curry'], function ($curry) {
    *
    */
   function extend(a, b) {
-    for (key in b) a[key] = b[key];
+    for (var key in b) a[key] = b[key];
     return a;
   }
 
