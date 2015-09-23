@@ -20,8 +20,6 @@
   ],
   "dependencies": {
     "Ninja.JS": "*",
-    "curry.Ninja.JS": "*",
-    "reduce.Ninja.JS": "*",
-    "prop.Ninja.JS": "*"
+    "curry.Ninja.JS": "*"
   }
 }
